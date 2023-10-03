@@ -1,0 +1,13 @@
+.itemListContainer {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings{
+    color: black;
+    font-family: sans-serif;
+    font-size:5rem;
+}
