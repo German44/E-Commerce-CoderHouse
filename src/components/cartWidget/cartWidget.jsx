@@ -1,10 +1,11 @@
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
+import {BsFillCartFill} from "react-icons/bs";
 
 function ButtonExample() {
     return (
         <Button variant="dark">
-            Carrito <Badge bg="warning">9</Badge>
+            <BsFillCartFill/><Badge bg="warning">9</Badge>
             <span className="visually-hidden">unread messages</span>
         </Button>
     );
